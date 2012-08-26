@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+PHP=/usr/bin/php
+${PHP} -c php/php.ini php/xtpl.php
+
