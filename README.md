@@ -17,4 +17,8 @@ Under UNIX:
 * 3. Enter name of your new module, for example "test"
 * 4. Start coding at folder ngx_http_test_module/.
 
+Compiling
+============
+At nginx source root:
+./configure --add-module=/path/to/ngx_http_test_module
 Enjoy!
